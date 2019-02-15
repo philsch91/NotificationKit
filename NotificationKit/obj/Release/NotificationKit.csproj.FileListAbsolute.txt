@@ -1,0 +1,10 @@
+C:\Users\A4938.PAD01\Documents\Visual Studio 2010\Projects\svn\NotificationKit\NotificationKit\bin\Release\NotificationKit.dll
+C:\Users\A4938.PAD01\Documents\Visual Studio 2010\Projects\svn\NotificationKit\NotificationKit\bin\Release\NotificationKit.pdb
+C:\Users\A4938.PAD01\Documents\Visual Studio 2010\Projects\svn\NotificationKit\NotificationKit\obj\Release\NKNotificationWindow.baml
+C:\Users\A4938.PAD01\Documents\Visual Studio 2010\Projects\svn\NotificationKit\NotificationKit\obj\Release\NKNotificationWindow.g.cs
+C:\Users\A4938.PAD01\Documents\Visual Studio 2010\Projects\svn\NotificationKit\NotificationKit\obj\Release\NotificationKit_MarkupCompile.cache
+C:\Users\A4938.PAD01\Documents\Visual Studio 2010\Projects\svn\NotificationKit\NotificationKit\obj\Release\NotificationKit.g.resources
+C:\Users\A4938.PAD01\Documents\Visual Studio 2010\Projects\svn\NotificationKit\NotificationKit\obj\Release\NotificationKit.Properties.Resources.resources
+C:\Users\A4938.PAD01\Documents\Visual Studio 2010\Projects\svn\NotificationKit\NotificationKit\obj\Release\NotificationKit.csproj.GenerateResource.Cache
+C:\Users\A4938.PAD01\Documents\Visual Studio 2010\Projects\svn\NotificationKit\NotificationKit\obj\Release\NotificationKit.dll
+C:\Users\A4938.PAD01\Documents\Visual Studio 2010\Projects\svn\NotificationKit\NotificationKit\obj\Release\NotificationKit.pdb
