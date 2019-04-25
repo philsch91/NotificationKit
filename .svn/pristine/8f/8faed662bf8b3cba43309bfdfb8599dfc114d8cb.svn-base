@@ -120,11 +120,9 @@ namespace NotificationKit {
         
         public NKNotificationWindow() {
             InitializeComponent();
-            this.ShowActivated = false;
-            this.ShowInTaskbar = false;
         }
         //deprecated
-        public NKNotificationWindow(Dictionary<string,string> dataDict) : this() {
+        public NKNotificationWindow(Dictionary<string,string> dataDict) {
             InitializeComponent();
             //this.data = dataDict;
             if(dataDict.ContainsKey("msg")) {
@@ -142,7 +140,7 @@ namespace NotificationKit {
             }
         }
         //deprecated
-        public NKNotificationWindow(Dictionary<string, string> dataDict, NKNotificationManager manager) : this() {
+        public NKNotificationWindow(Dictionary<string, string> dataDict, NKNotificationManager manager) {
             InitializeComponent();
             //this.data = dataDict;
             if(dataDict.ContainsKey("msg")) {
@@ -162,7 +160,7 @@ namespace NotificationKit {
             this.manager = manager;
         }
 
-        public NKNotificationWindow(NKNotification notification) : this() {
+        public NKNotificationWindow(NKNotification notification) {
             InitializeComponent();
             
             this.notificationTextBlock.Text = this.modifyNotificationText(notification.Text);
@@ -171,7 +169,7 @@ namespace NotificationKit {
             this.notification = notification;
         }
 
-        public NKNotificationWindow(NKNotification notification, NKNotificationManager manager) : this() {
+        public NKNotificationWindow(NKNotification notification, NKNotificationManager manager) {
             InitializeComponent();
             
             this.notificationTextBlock.Text = this.modifyNotificationText(notification.Text);
@@ -187,7 +185,7 @@ namespace NotificationKit {
             Rect screen = System.Windows.SystemParameters.WorkArea;
             this.Left = screen.Right - this.Width - 10;
             this.Top = screen.Top + 10;
-            this.faded = false;
+            faded = false;
 
             WindowInteropHelper wndHelper = new WindowInteropHelper(this);
             int extStyle = (int)GetWindowLong(wndHelper.Handle, (int)GetWindowLongFields.GWL_EXSTYLE);
