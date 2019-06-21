@@ -1,6 +1,6 @@
 # NotificationKit
 
-Handle and write text files easier and thread-safe.
+Create and display notifications to the user
 
 #### Classes
 - NKNotification
@@ -12,7 +12,7 @@ Handle and write text files easier and thread-safe.
 
 ~~~~
 //create and start an instance of NKNotificationManager
-//that automatically creates, manages and displays one or more NKNotificationWindows
+//that automatically creates, displays and closes one or more NKNotificationWindows
 
 NKNotificationManager manager = new NKNotificationManager();
 manager.Start();
